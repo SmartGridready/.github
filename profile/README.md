@@ -6,7 +6,7 @@ You find further information about SmartGridready on our [SmartGridready](https:
 SmartGridready provides you a software stack that enables easy integration of SmartGridready compliant products/devices
 into communicator and controlling applications such as energy-managers and network flexibility managers:
 
-![SmartGridready architecture](/doc/architecture.png)
+![SmartGridready architecture](doc/architecture.png)
 
 *Figure 1 Basic SmartGridready architecture. Refer to the readme's of the projects 
 <a href="https://github.com/SmartGridready/SGrSpecifications/">SGrSpecifications</a>,
