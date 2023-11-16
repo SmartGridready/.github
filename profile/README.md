@@ -1,10 +1,10 @@
 ### Welcome to the SmartGridready software repository
 
-SmartGridready is the label for standardized, secure communication between products, systems and electricity networks.
+SmartGridready is the label for standardized, secure communication between products, systems, and electricity networks.
 You find further information about SmartGridready on our [SmartGridready](https://smartgridready.ch/) website.
 
-SmartGridready provides you a software stack that enables easy integration of SmartGridready compliant products/devices
-into communicator and controlling applications such as energy-managers and network flexibility managers:
+SmartGridready provides you a software stack that enables easy integration of SmartGridready compliant products and devices
+into communicator and controlling applications such as energy managers and network flexibility managers:
 
 ![SmartGridready architecture](profile/doc/architecture.png)
 
