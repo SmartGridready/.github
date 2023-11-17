@@ -1,6 +1,6 @@
 ### Welcome to the SmartGridready software repository
 
-SmartGridready is the label for standardized, secure communication between products, systems, and electricity networks.
+SmartGridready is the label for standardized, secure communication between products, systems and electricity networks.
 You find further information about SmartGridready on our [SmartGridready](https://smartgridready.ch/) website.
 
 SmartGridready provides you a software stack that enables easy integration of SmartGridready compliant products and devices
@@ -14,9 +14,9 @@ into communicator and controlling applications such as energy managers and netwo
 <a href="https://github.com/SmartGridready/SGrJavaDrivers">SGrJavaDrivers</a> for a detailed description.*
 
 #### The software projects below target different user groups:
-- Developers of SmartGridready client devices, called **communicators** in SmartgridReady terminology. They are users of the SmarGridready **commhandler** library.
-- Developers of the SmartGridready core library component, called **commhandler** in SmartgridReady terminology. They are contributors to the SmartGridready opensource software stack. 
-- Developers of device drivers who want to integrate their own device driver (e.g. modbus driver) into the SmartgridReady software stack. They may contribute their own driver to the SmartGridready opensource software stack.
+- Developers of SmartGridready client devices, called **communicators** in SmartGridready terminology are users of the SmarGridready **commhandler** library.
+- Developers of the SmartGridready core library component, called **commhandler** in SmartGridready terminology are contributors to the SmartGridready opensource software stack. 
+- Developers of device drivers who want to integrate their own device driver (e.g. modbus driver) into the SmartGridready software stack may contribute their own driver to the SmartGridready opensource software stack.
 
 ### Project descriptions
 <table>
@@ -24,18 +24,18 @@ into communicator and controlling applications such as energy managers and netwo
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrSpecifications/">SGrSpecifications</a></td>
         <td>All developers</td>
-        <td>SGrSpecifications defines the XML-schemas for the SmartGridready functional-profiles and the XML-schemas for 
-        device descriptions in XML, called EI-xml (external interface XML). 
-        It also contains the EI-xml for SmartGridready certified devices. The device description EI-xml are read by the 
+        <td>SGrSpecifications defines the XML-schemes for the SmartGridready functional-profiles and the XML-schemes for 
+        device descriptions in XML, called EID-XML (External Interface Description XML). 
+        It also contains the EID-XML for SmartGridready declared devices. The EID-XML are read by the 
         commhandler and define the interface conversion from the generic SmartGridready interface to the device specific 
         interface.</td>
     </tr>
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrJavaSamples">SGrJavaSamples</a></td>
         <td>Communicator Developers</td>
-        <td>SGrJavaSamples provides starter projects for communicator developers. The projects contains
-        samples on how to use the SmartgridReady API. The samples describe how load a device description EI-xml, 
-        read/write device data-points, handle specific datatypes such as arrays, enums and bitmaps. Furthermore
+        <td>SGrJavaSamples provides starter projects for communicator developers. The projects contain
+        samples on how to use the SmartGridready API. The samples describe how to load a device description EID-XML, 
+        define how to read/write device data-points and can handle specific datatypes such as arrays, enums and bitmaps. Furthermore
         there are samples on how you can use the commhandler library when applying an asynchronous programming
         model. 
         </td>
@@ -45,13 +45,13 @@ into communicator and controlling applications such as energy managers and netwo
         <td>SmartGridready core developers</td>
         <td>SGrJava contains the commhandler library code which is the core component of the SmartGridready soft
         ware stack. The commhandler core library provides the interface conversion from the generic SmartGridready API 
-        to the specific device API based on EI-xml device description files.</td>
+        to the specific device API based on EID-XML device description files.</td>
     </tr>
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrJavaDrivers">SGrJavaDrivers</a></td>
-        <td>SmartGridReady core developers, 3rd party device driver developers</td>
+        <td>SmartGridready core developers, 3rd party device driver developers</td>
         <td>Within the SGrJavaDrivers project you find the device driver adapter interface specification
-        (Java interface) and a concrete device driver implementation for modbus, called 'EasyModbus'.
+        (Java interface) and a specific device driver implementation for modbus, called 'EasyModbus'.
         </td>
     </tr>
     <tr>
