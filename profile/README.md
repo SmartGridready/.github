@@ -27,7 +27,7 @@ into communicator and controlling applications such as energy managers and netwo
         <td>SGrSpecifications defines the XML-schemes for the SmartGridready functional-profiles and the XML-schemes for 
         device descriptions in XML, called EID-XML (External Interface Description XML). 
         It also contains the EID-XML for SmartGridready declared devices. The EID-XML are read by the 
-        commhandler and define the interface conversion from the generic SmartGridready interface to the device specific 
+        commhandler and defines the interface conversion from the generic SmartGridready interface to the device specific 
         interface.</td>
     </tr>
     <tr>
