@@ -13,7 +13,7 @@ into communicator and controlling applications such as energy managers and netwo
 <a href="https://github.com/SmartGridready/SGrJavaSamples">SGrJavaSamples</a> and
 <a href="https://github.com/SmartGridready/SGrJavaDrivers">SGrJavaDrivers</a> for a detailed description.*
 
-#### The software projects below target different user groups:
+#### The software projects below address different user groups:
 - Developers of SmartGridready client devices, called **communicators** in SmartGridready terminology are users of the SmarGridready **commhandler** library.
 - Developers of the SmartGridready core library component, called **commhandler** in SmartGridready terminology are contributors to the SmartGridready opensource software stack. 
 - Developers of device drivers who want to integrate their own device driver (e.g. modbus driver) into the SmartGridready software stack may contribute their own driver to the SmartGridready opensource software stack.
