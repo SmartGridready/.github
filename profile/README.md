@@ -60,8 +60,8 @@ into communicator and controlling applications such as energy managers and netwo
         <td>SGrPython provides a commhandler library written in Python. It also contains an example folder
         with code samples on how to use the commhandler library within communicator applications.</td>
     </tr>
-        <tr>
-        <td><a href="https://github.com/SmartGridready/SGrTestsystems">SGrPython</a></td>
+    <tr>
+        <td><a href="https://github.com/SmartGridready/SGrTestsystems">SGrTestsystems</a></td>
         <td>All Developers</td>
         <td>SGrTestsystems contains testing resources and tools for tesing within the SmartgridReady environment</td>
     </tr>
