@@ -63,6 +63,6 @@ into communicator and controlling applications such as energy managers and netwo
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrTestsystems">SGrTestsystems</a></td>
         <td>All Developers</td>
-        <td>SGrTestsystems contains testing resources and tools for tesing within the SmartgridReady environment</td>
+        <td>SGrTestsystems contains resources and tools for tesing within the SmartgridReady environment</td>
     </tr>
 </table>
