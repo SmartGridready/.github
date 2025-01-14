@@ -55,6 +55,14 @@ into communicator and controlling applications such as energy managers and netwo
         </td>
     </tr>
     <tr>
+        <td><a href="https://github.com/SmartGridready/SGrJavaIntermediary">SGrJavaIntermediary</a></td>
+        <td>SmartGridready Communicator Develpers</td>
+        <td>SGrJavaIntermediary contains a Gateway that allows easy access to the Java communication handler
+        through a REST-API. This is in particular useful when the communicator is written in a programming
+        language where no native SmartGridready communication handler library exists. The SGrJavaIntermediary is available
+        as Docker image and easy to install.</td>
+    </tr>
+    <tr>
         <td><a href="https://github.com/SmartGridready/SGrPython">SGrPython</a></td>
         <td>All developers that use Python as programming language</td>
         <td>SGrPython provides a commhandler library written in Python. It also contains an example folder
