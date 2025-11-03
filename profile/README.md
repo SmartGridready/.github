@@ -32,7 +32,7 @@ into communicator and controlling applications such as energy managers and netwo
     </tr>
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrJavaSamples">SGrJavaSamples</a></td>
-        <td>Communicator Developers</td>
+        <td>Communicator developers that use Java as programming language</td>
         <td>SGrJavaSamples provides starter projects for communicator developers. The projects contain
         samples on how to use the SmartGridready API. The samples describe how to load a device description EID-XML, 
         define how to read/write device data-points and can handle specific datatypes such as arrays, enums and bitmaps. Furthermore
@@ -42,7 +42,7 @@ into communicator and controlling applications such as energy managers and netwo
     </tr>
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrJava">SGrJava</a></td>
-        <td>SmartGridready core developers</td>
+        <td>Communicator developers that use Java as programming language</td>
         <td>SGrJava contains the commhandler library code which is the core component of the SmartGridready soft
         ware stack. The commhandler core library provides the interface conversion from the generic SmartGridready API 
         to the specific device API based on EID-XML device description files.</td>
@@ -56,21 +56,31 @@ into communicator and controlling applications such as energy managers and netwo
     </tr>
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrJavaIntermediary">SGrJavaIntermediary</a></td>
-        <td>SmartGridready Communicator Develpers</td>
+        <td>Communicator develpers</td>
         <td>SGrJavaIntermediary contains a Gateway that allows easy access to the Java communication handler
         through a REST-API. This is in particular useful when the communicator is written in a programming
         language where no native SmartGridready communication handler library exists. The SGrJavaIntermediary is available
         as Docker image and easy to install.</td>
     </tr>
     <tr>
+        <td><a href="https://github.com/SmartGridready/SGrPythonSamples">SGrPythonSamples</a></td>
+        <td>Communicator developers that use Python as programming language</td>
+        <td>SGrPythonSamples provides starter projects for communicator developers. The projects contain
+        samples on how to use the SmartGridready API. The samples describe how to load a device description EID-XML, 
+        define how to read/write device data-points and can handle specific datatypes such as arrays, enums and bitmaps. Furthermore
+        there are samples on how you can use the commhandler library when applying an asynchronous programming
+        model. 
+        </td>
+    </tr>
+    <tr>
         <td><a href="https://github.com/SmartGridready/SGrPython">SGrPython</a></td>
-        <td>All developers that use Python as programming language</td>
+        <td>Communicator developers that use Python as programming language</td>
         <td>SGrPython provides a commhandler library written in Python. It also contains an example folder
         with code samples on how to use the commhandler library within communicator applications.</td>
     </tr>
     <tr>
         <td><a href="https://github.com/SmartGridready/SGrTestsystems">SGrTestsystems</a></td>
-        <td>All Developers</td>
+        <td>SmartGridready core developers</td>
         <td>SGrTestsystems contains resources and tools for tesing within the SmartgridReady environment</td>
     </tr>
 </table>
