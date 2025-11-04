@@ -18,6 +18,13 @@ into communicator and controlling applications such as energy managers and netwo
 - Developers of the SmartGridready core library component, called **commhandler** in SmartGridready terminology are contributors to the SmartGridready opensource software stack. 
 - Developers of device drivers who want to integrate their own device driver (e.g. modbus driver) into the SmartGridready software stack may contribute their own driver to the SmartGridready opensource software stack.
 
+#### Getting started
+
+To learn about the SmartGridready concepts and the specification, use the
+[SmartGridready Online Documentation](https://smartgridready.github.io/) as a starting point.
+
+The online documentation mainly provides an overview and directs you to the correct location, when specific details are needed. 
+
 ### Project descriptions
 <table>
     <tr><th>Project</th><th>Target User Group</th><th>Description</th></tr>
@@ -77,10 +84,5 @@ into communicator and controlling applications such as energy managers and netwo
         <td>Communicator developers that use Python as programming language</td>
         <td>SGrPython provides a commhandler library written in Python. It also contains an example folder
         with code samples on how to use the commhandler library within communicator applications.</td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/SmartGridready/SGrTestsystems">SGrTestsystems</a></td>
-        <td>SmartGridready core developers</td>
-        <td>SGrTestsystems contains resources and tools for tesing within the SmartgridReady environment</td>
     </tr>
 </table>
